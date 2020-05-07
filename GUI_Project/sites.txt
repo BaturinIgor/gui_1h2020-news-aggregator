@@ -1,0 +1,4 @@
+http://www.sarbc.ru/rss/data-utf/main.rss - не оч, мало инфы
+http://www.ixbt.com/export/news.rss - норм, но много мусора
+http://news.yandex.ru/Novosibirsk/index.rss - мало инфы (НОВОСИБИРСК)
+
