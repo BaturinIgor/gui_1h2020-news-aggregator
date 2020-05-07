@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:cf="http://www.microsoft.com/schemas/rss/core/2005" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+	<atom:link href="https://www.ixbt.com/export/news.rss" rel="self" type="application/rss+xml" />	<title>iXBT.com: новости</title>
+	<link>https://www.ixbt.com/</link>
+	<description>iXBT.com (https://www.ixbt.com) — специализированный российский информационно-аналитический сервер, освещающий вопросы аппаратного обеспечения персональных компьютеров, коммуникаций и серверов, 3D-графики и звука, цифрового фото и видео, Hi-Fi аппаратуры и проекторов, мобильной связи и периферии, игровых приложений и многого другого.</description>
+	<image>
+		<url>https://www.ixbt.com/images/ixbt-logo-new.jpg</url>
+		<title>iXBT.com: новости</title>
+		<link>https://www.ixbt.com/</link>
+	</image>
+		<item>
+		<guid isPermaLink="true">https://www.ixbt.com/news/2020/05/06/samsung-honor-galaxy-a71.html</guid>
+		<title>Середняк Samsung оказался лучше флагмана Honor. Фронтальная камера Galaxy A71 показала себя весьма неплохо</title>
+		<link>https://www.ixbt.com/news/2020/05/06/samsung-honor-galaxy-a71.html</link>
+		<description><![CDATA[ 
+			<p>В то время как флагманский Honor V30 Pro, способный похвастаться одной из лучших, по версии DxOMark, основных камер, <a href="https://www.ixbt.com/news/2020/05/05/odin-iz-luchshih-kamerofonov-honor-razocharoval-kachestvom-frontalnoj-kamery.html">провалил тест фронтальной</a>, среднебюджетный Samsung Galaxy A71, напротив, удивил.</p> <a href="https://www.ixbt.com/img/n1/news/2020/4/3/Amadeus55cm_SamsungGalaxyA71_DxOMark_Selfie_05-00_0_large.jpg"><figure><img src="https://www.ixbt.com/img//x780/n1/news/2020/4/3/Amadeus55cm_SamsungGalaxyA71_DxOMark_Selfie_05-00_0_large.jpg" /></figure></a> <p>При том, что основная его камера оценена всего на 84 балла, что по современным меркам немного, фронтальная заработала&hellip; всего на 1 балл меньше! Да, специалисты источника оценили фронтальную камеру аппарата на 83 балла. Если говорить точнее, то те же 83 балла смартфон получил за качество фотографий на фронтальную камеру, а за качество видео &mdash; 82 балла. Таким образом, Galaxy A71 обошёл, к примеру, iPhone XS Max, Galaxy S9+, но уступил OnePlus 7 Pro и Galaxy Note9.</p>					<br><br>
+		<a href="https://www.ixbt.com/news/2020/05/06/samsung-honor-galaxy-a71.html#comments_block">Комментировать</a>
+		<br><br>
+		]]></description>
+		<author>mpak@ixbt.com (MPAK)</author>		<category></category>
+		<pubDate>Wed, 06 May 2020 12:47:00 +0300</pubDate>
+	</item>
+		<item>
+		<guid isPermaLink="true">https://www.ixbt.com/news/2020/05/06/xiaomi-mi-electric-scooter-1s-iphone-se.html</guid>
+		<title>Ээлектросамокат Xiaomi Mi Electric Scooter 1S доступен за половину стоимости iPhone SE у себя на родине</title>
+		<link>https://www.ixbt.com/news/2020/05/06/xiaomi-mi-electric-scooter-1s-iphone-se.html</link>
+		<description><![CDATA[ 
+			<p>Компания Xiaomi начала принимать заказы на свой новый электросамокат Xiaomi Mi Electric Scooter 1S.</p> <a href="https://www.ixbt.com/img/n1/news/2020/4/3/Xiaomi-electric-scooter-1S_large.png"><figure><img src="https://www.ixbt.com/img//x780/n1/news/2020/4/3/Xiaomi-electric-scooter-1S_large.png" /></figure></a> <p>Первым регионом, где можно заказать такой электросамокат стал Китай. Xiaomi Mi Electric Scooter 1S предлагается там за 282 доллара, в пересчёте по текущему курсу это примерно 21 тысяча рублей. Вскоре данная модель ожидается и в Европе.</p> <a href="https://www.ixbt.com/img/n1/news/2020/4/3/descr_elektrosamokat_mijia_electric_scooter_1s_1_large.jpg"><figure><img src="https://www.ixbt.com/img//x780/n1/news/2020/4/3/descr_elektrosamokat_mijia_electric_scooter_1s_1_large.jpg" /></figure></a> <p>В отличие от предшественника, Xiaomi Mi Electric Scooter 1S получил интерактивный цветной интерфейс на руле, на который выводится полезная информация в реальном времени.&nbsp;</p> <a href="https://www.ixbt.com/img/n1/news/2020/4/3/descr_elektrosamokat_mijia_electric_scooter_1s_3_large.jpg"><figure><img src="https://www.ixbt.com/img//x780/n1/news/2020/4/3/descr_elektrosamokat_mijia_electric_scooter_1s_3_large.jpg" /></figure></a> <p>Электросамокат получил аккумулятор, обеспечивающий до 30 км хода, а также двойную систему торможения. Максимальная скорость составляет 25 км/ч. Поддерживается три режима поездки &mdash; энергосберегающий (ECO), нормальный (D) и спортивный (S).&nbsp;</p> <p>Xiaomi Mi Electric Scooter 1S рассчитан на нагрузку до 100 км и весит 12,5 кг. Его можно быстро сложить, по словам производителя &mdash; за 3 секунды.&nbsp;</p> <p>Самокат также поддерживает работу с приложением Mijia на смартфоне, где отображается информация о поездке, даются инструкции и можно обновить прошивку.&nbsp;</p>					<br><br>
+		<a href="https://www.ixbt.com/news/2020/05/06/xiaomi-mi-electric-scooter-1s-iphone-se.html#comments_block">Комментировать</a>
+		<br><br>
+		]]></description>
+		<author>verko@corp.ixbt.com (VerKo)</author>		<category></category>
+		<pubDate>Wed, 06 May 2020 12:30:00 +0300</pubDate>
+	</item>
+		<item>
+		<guid isPermaLink="true">https://www.ixbt.com/news/2020/05/06/iphone-12-nfc.html</guid>
+		<title>iPhone 12 получит двустороннюю беспроводную зарядку по NFC</title>
+		<link>https://www.ixbt.com/news/2020/05/06/iphone-12-nfc.html</link>
+		<description><![CDATA[ 
+			<p>Китайские источники утверждают, что Apple планирует наделить смартфоны iPhone 12 возможностью двусторонней беспроводной зарядки, которая уже есть во флагманских смартфонах Samsung, Huawei и других производителей.</p> <p>Еще в январе организация NFC Forum <a href="https://www.ixbt.com/news/2019/01/15/nfc-forum-iot.html">объявила о выходе спецификации Wireless Charging Candidate Technical Specification (WLC)</a>. Она позволяет организовать беспроводную зарядку устройства с поддержкой NFC мощностью до 1 Вт, при этом используется та же антенна, что и для связи. А впервые о том, что с помощью модуля NFC можно обмениваться энергией между смартфонами и прочими мобильными устройствами, было объявлено еще в 2013 году.</p> <a href="https://www.ixbt.com/img/n1/news/2020/4/3/ETZosOhWkAETeXn_large_large.jpg"><figure><img src="https://www.ixbt.com/img//x780/n1/news/2020/4/3/ETZosOhWkAETeXn_large_large.jpg" /></figure></a> <p>Беспроводная зарядка по NFC внесла ощутимые изменения в дизайн и способ взаимодействия с небольшими носимыми устройствами, которые работают от аккумулятора. С устранением штекеров и кабелей устройства можно сделать более компактными и герметичными.</p> <p>Председатель NFC Forum Когава Тагава</p> <p>Перед запуском iPhone 11 известный аналитик Минг-Чи Куо заявил, что Apple не добавила эту функцию в iPhone 11 из-за проблем с энергоэффективностью.</p>					<br><br>
+		<a href="https://www.ixbt.com/news/2020/05/06/iphone-12-nfc.html#comments_block">Комментировать</a>
+		<br><br>
+		]]></description>
+		<author>jin@ixbt.com (Jin)</author>		<category></category>
+		<pubDate>Wed, 06 May 2020 11:47:00 +0300</pubDate>
+	</item>
+		<item>
+		<guid isPermaLink="true">https://www.ixbt.com/news/2020/05/06/intel-comet-lake-s.html</guid>
+		<title>Многострадальные процессоры Intel Comet Lake-S. Оказалось, что они не поступят в продажу в начале мая</title>
+		<link>https://www.ixbt.com/news/2020/05/06/intel-comet-lake-s.html</link>
+		<description><![CDATA[ 
+			<p>Настольные процессоры Intel Comet Lake и сами по себе весьма спорные, и с запуском их на рынок всё не так гладко. Первые слухи указывали на то, что они выйдут в самом начале года, хотя это их всё равно бы не спасло от конкуренции с очень удачными Ryzen 3000.</p> <p>Теперь CPU наконец-то представлены, и Intel якобы обещала старт продаж в начале мая, но теперь сообщается, что запрет на публикацию обзоров будет снят 20 мая, а это значит, что вряд ли процессоры попадут на прилавки до этой даты. К тому же, как мы уже <a href="https://www.ixbt.com/news/2020/05/05/intel-comet-lake-s.html">сообщали</a>, первыми в продаже появятся исключительно модели с разблокированным множителем.</p> <p>А сегодня день, когда снят запрет на публикацию фотографий процессоров, их упаковок и материалов, связанных с распаковкой. Так что мы пока не может посмотреть на полноценные тесты, но можем взглянуть на красивые фотографии.</p> <a href="https://www.ixbt.com/img/n1/news/2020/4/3/Intel-Core-i9-10900K-and-Core-i5-10600K-review-kit-Xfastest-8_large.jpg"><figure><img src="https://www.ixbt.com/img/x387/n1/news/2020/4/3/Intel-Core-i9-10900K-and-Core-i5-10600K-review-kit-Xfastest-8_large.jpg" /></figure></a> <a href="https://www.ixbt.com/img/n1/news/2020/4/3/Intel-Core-i9-10900K-and-Core-i5-10600K-review-kit-Xfastest-5_large.jpg"><figure><img src="https://www.ixbt.com/img/x387/n1/news/2020/4/3/Intel-Core-i9-10900K-and-Core-i5-10600K-review-kit-Xfastest-5_large.jpg" /></figure></a> <a href="https://www.ixbt.com/img/n1/news/2020/4/3/Intel-Core-i9-10900K-and-Core-i5-10600K-review-kit-Xfastest-4_large.jpg"><figure><img src="https://www.ixbt.com/img/x387/n1/news/2020/4/3/Intel-Core-i9-10900K-and-Core-i5-10600K-review-kit-Xfastest-4_large.jpg" /></figure></a> <a href="https://www.ixbt.com/img/n1/news/2020/4/3/Intel-Core-i9-10900K-and-Core-i5-10600K-review-kit-Xfastest-3_large.jpg"><figure><img src="https://www.ixbt.com/img/x387/n1/news/2020/4/3/Intel-Core-i9-10900K-and-Core-i5-10600K-review-kit-Xfastest-3_large.jpg" /></figure></a> <p>Данная упаковка с двумя CPU предназначена исключительно для обзоров, а вот ниже можно увидеть снимки розничной коробки.</p> <a href="https://www.ixbt.com/img/n1/news/2020/4/3/Coolaler-Comet-LakeS-1_large.jpg"><figure><img src="https://www.ixbt.com/img/x387/n1/news/2020/4/3/Coolaler-Comet-LakeS-1_large.jpg" /></figure></a> <a href="https://www.ixbt.com/img/n1/news/2020/4/3/Intel-COMET-LAKES-3-1_large.jpg"><figure><img src="https://www.ixbt.com/img/x387/n1/news/2020/4/3/Intel-COMET-LAKES-3-1_large.jpg" /></figure></a> <p>Что интересно, во всех случаях речь о двух моделях: Core i9-10900K и Core i5-10600K. Почему нет Core i7-10700K, неясно.</p>					<br><br>
+		<a href="https://www.ixbt.com/news/2020/05/06/intel-comet-lake-s.html#comments_block">Комментировать</a>
+		<br><br>
+		]]></description>
+		<author>mpak@ixbt.com (MPAK)</author>		<category></category>
+		<pubDate>Wed, 06 May 2020 11:08:00 +0300</pubDate>
+	</item>
+		<item>
+		<guid isPermaLink="true">https://www.ixbt.com/news/2020/05/06/oculus-vr-quest.html</guid>
+		<title>Oculus приписывают разработку облегченной версии VR-гарнитуры Quest</title>
+		<link>https://www.ixbt.com/news/2020/05/06/oculus-vr-quest.html</link>
+		<description><![CDATA[ 
+			<p>В сети появилась информация, что принадлежащая Facebook компания Oculus разрабатывает новую версию своей автономной гарнитуры виртуальной реальности Quest. Новая гарнитура будет меньше и на 20% легче исходной модели. Изображение в ней будет обновляться быстрее, создавая более реалистичные ощущения.</p> <figure><img src="https://www.ixbt.com/img//x780/n1/news/2020/4/3/OculusQuest_6.jpg" /></figure> <p>По предварительным данным, частота обновления составит, по крайней мере, 90 Гц, тогда как в текущей модели она равна 60 Гц. Источник отмечает, что увеличение частоты до 120 Гц повлекло бы за собой дополнительное увеличение расхода заряда аккумулятора.</p> <p>Кроме того, в комплект поставки войдут переработанные контроллеры. Они удобнее и в них устранена проблема иногда соскальзывающей крышки батарейного отсека.</p> <p>Источники также утверждают, что тестируемые образцы гарнитуры оснащены четырьмя внешними камерами против пяти в модели Rift S и поддерживают шесть степеней свободы, что позволяет пользователям оглядываться в любом направлении и идти в виртуальном пространстве, как в реальности. Новая модель также будет поддерживать Oculus Link &mdash; кабель, который позволяет пользователю подключить гарнитуру к ПК для повышения производительности.</p> <p>Изначально выпуск новой модели был запланирован на конец текущего года, но пока он откладывается из-за влияния COVID-19 на процесс разработки и глобальную цепочку поставок. Предположительно, поставки гарнитуры будут перенесены на 2021 год.</p>					<br><br>
+		<a href="https://www.ixbt.com/news/2020/05/06/oculus-vr-quest.html#comments_block">Комментировать</a>
+		<br><br>
+		]]></description>
+		<author>accent@ixbt.com (Accent)</author>		<category></category>
+		<pubDate>Wed, 06 May 2020 11:02:00 +0300</pubDate>
+	</item>
+		<item>
+		<guid isPermaLink="true">https://www.ixbt.com/news/2020/05/06/servis-google-stadia-nachal-izbavljatsja-ot-odnogo-iz-svoih-osnovnyh-nedostatkov-no-poka-obradujutsja-ne-vse.html</guid>
+		<title>Сервис Google Stadia начал избавляться от одного из своих основных недостатков, но пока обрадуются не все</title>
+		<link>https://www.ixbt.com/news/2020/05/06/servis-google-stadia-nachal-izbavljatsja-ot-odnogo-iz-svoih-osnovnyh-nedostatkov-no-poka-obradujutsja-ne-vse.html</link>
+		<description><![CDATA[ 
+			<p>Потоковый игровой сервис Google Stadia присутствует на рынке уже несколько месяцев, но лишь сейчас фирменный контроллер избавился от одного существенного недостатка.</p> <a href="https://www.ixbt.com/img/n1/news/2020/4/3/SDRD9z2br623kx2v5yLABG_large.jpg"><figure><img src="https://www.ixbt.com/img//x780/n1/news/2020/4/3/SDRD9z2br623kx2v5yLABG_large.jpg" /></figure></a> <p>Пользователи Stadia Controller наконец-то получили возможность подключать его к ПК без использования кабеля. Напомним, контроллер Stadia подключается к устройству не посредством Bluetooth &mdash; он подключается напрямую к роутеру, используя Wi-Fi, чтобы снизить задержки.</p> <p>При этом, к сожалению, беспроводной способ подключения пока доступен лишь на ПК и на телевизоре при условии использования Chromecast Ultra. В остальных случаях пока ещё нужно пользоваться кабелем, причём даже на смартфоне.</p>					<br><br>
+		<a href="https://www.ixbt.com/news/2020/05/06/servis-google-stadia-nachal-izbavljatsja-ot-odnogo-iz-svoih-osnovnyh-nedostatkov-no-poka-obradujutsja-ne-vse.html#comments_block">Комментировать</a>
+		<br><br>
+		]]></description>
+		<author>mpak@ixbt.com (MPAK)</author>		<category></category>
+		<pubDate>Wed, 06 May 2020 10:58:00 +0300</pubDate>
+	</item>
+		<item>
+		<guid isPermaLink="true">https://www.ixbt.com/news/2020/05/06/google-android-android-tv-google-tv.html</guid>
+		<title>Google продолжает отказываться от бренда Android в названиях своих продуктов. Android TV превратится в Google TV</title>
+		<link>https://www.ixbt.com/news/2020/05/06/google-android-android-tv-google-tv.html</link>
+		<description><![CDATA[ 
+			<p>Как сообщают осведомленные информаторы, поисковый гигант Google собирается переименовать операционную систему для телевизоров Android TV в Google TV.</p> <p>Несмотря на то, что для сотен миллионов людей во всем мире Android является хорошо узнаваемым брендом, компания Google продолжает планомерно убирать его из названий своих продуктов.</p> <p>Скорее всего, операционная система Android никуда не денется, то есть смартфоны продолжат работать под управлением Android в обозримом будущем. Однако сопутствующие продукты и сервисы постепенно отказываются от названия Android.</p> <a href="https://www.ixbt.com/img/n1/news/2020/4/3/android-tv-logo_large.png"><figure><img src="https://www.ixbt.com/img//x780/n1/news/2020/4/3/android-tv-logo_large.png" /></figure></a> <p>Начать стоить с того, что магазин приложений Android Market давно переименован в Google Play Store. В 2018 году система электронных платежей Android Pay была переименована в Google Pay. Android Messages переименовали в Messages. Операционная система Android Wear для носимых устройств поменяла название на Wear OS и так далее.</p>					<br><br>
+		<a href="https://www.ixbt.com/news/2020/05/06/google-android-android-tv-google-tv.html#comments_block">Комментировать</a>
+		<br><br>
+		]]></description>
+		<author>jin@ixbt.com (Jin)</author>		<category></category>
+		<pubDate>Wed, 06 May 2020 10:52:00 +0300</pubDate>
+	</item>
+		<item>
+		<guid isPermaLink="true">https://www.ixbt.com/news/2020/05/06/prognoz-sbylsja-honor-30s-dejstvitelno-vzorval-rynok.html</guid>
+		<title>Прогноз сбылся. Honor 30S действительно взорвал рынок</title>
+		<link>https://www.ixbt.com/news/2020/05/06/prognoz-sbylsja-honor-30s-dejstvitelno-vzorval-rynok.html</link>
+		<description><![CDATA[ 
+			<p>Сегодня Honor официально сообщила о том, что она стала чемпионом по совокупным продажам смартфонов на популярных китайских платформах, включая Jingdong, Tmall и Suning, в период с 1 по 5 мая этого года.</p> <p>При этом Honor 30 Pro стал самым продаваемым смартфоном в категории от 565 до 845 долларов на площадке Tmall, а Honor 30S оказался самым продаваемым смартфоном с поддержкой сетей пятого поколения.</p> <p>Ранее популярный магазин Jingdong опубликовал сведения о продажах смартфонов с поддержкой сетей пятого поколения. Наиболее популярными оказались смартфоны Huawei, Honor, Xiaomi, Vivo и OnePlus. Что касается конкретных моделей, то лидирует Honor 30S, следом идут Xiaomi Mi 10, Huawei P40 Pro, Huawei Mate 30 и Huawei P40.</p> <a href="https://www.ixbt.com/img/n1/news/2020/4/3/LkgLf4HnN4Jf_large.jpg"><figure><img src="https://www.ixbt.com/img//x780/n1/news/2020/4/3/LkgLf4HnN4Jf_large.jpg" /></figure></a> <p>Президент Honor Чжао Мин (Zhao Ming) заявил, что Honor 30S, как прогнозировалось еще до выхода смартфона, действительно сыграл очень важную роль в популяризации сетей пятого поколения среди всех пользователей. Этот смартфон может удовлетворить все потребности пользователей, предлагая огромную скорость загрузки данных&nbsp;при доступной цене.</p> <p>Еще в марте аналитики прогнозировали, что <a href="https://www.ixbt.com/news/2020/03/14/honor-30s-kirin-820.html">Honor 30S взорвет рынок</a>. Похоже, так и произошло.</p>					<br><br>
+		<a href="https://www.ixbt.com/news/2020/05/06/prognoz-sbylsja-honor-30s-dejstvitelno-vzorval-rynok.html#comments_block">Комментировать</a>
+		<br><br>
+		]]></description>
+		<author>jin@ixbt.com (Jin)</author>		<category></category>
+		<pubDate>Wed, 06 May 2020 10:34:00 +0300</pubDate>
+	</item>
+		<item>
+		<guid isPermaLink="true">https://www.ixbt.com/news/2020/05/06/android-10-google-chrome-live-caption.html</guid>
+		<title>Одна из уникальнейших функций Android 10 теперь доступна и на ПК. В Google Chrome появилась функция Live Caption</title>
+		<link>https://www.ixbt.com/news/2020/05/06/android-10-google-chrome-live-caption.html</link>
+		<description><![CDATA[ 
+			<p>Вместе с операционной системой Android 10 компания Google представила и функцию Live Caption. Суть её работы максимально проста: функция преобразовывает речь в текст, причём работать это должно и в YouTube, и в музыкальном проигрывателе, и даже в мессенджерах, более того, для этого даже не требуется подключение к интернету. Хотя пока, конечно, работает это всё только на английском.</p> <a href="https://www.ixbt.com/img/n1/news/2020/4/3/live-caption-Google-2019_large.jpg"><figure><img src="https://www.ixbt.com/img//x780/n1/news/2020/4/3/live-caption-Google-2019_large.jpg" /></figure></a> <p>В любом случае, похоже, Google собралась перенести эту функцию и на ПК. В сборке Canary браузера Chrome функция Live Caption уже появилась, правда, даже в этом случае включать её придётся вручную в настройках приложения. Стоит также отметить, что доступна Live Caption на всех основных настольных платформах: Windows, Linux и macOS.</p>					<br><br>
+		<a href="https://www.ixbt.com/news/2020/05/06/android-10-google-chrome-live-caption.html#comments_block">Комментировать</a>
+		<br><br>
+		]]></description>
+		<author>mpak@ixbt.com (MPAK)</author>		<category></category>
+		<pubDate>Wed, 06 May 2020 10:30:00 +0300</pubDate>
+	</item>
+		<item>
+		<guid isPermaLink="true">https://www.ixbt.com/news/2020/05/06/rossijane-skupajut-deshevejushie-umnye-chasy-i-dorozhajushie-fitnesbraslety.html</guid>
+		<title>Россияне скупают дешевеющие умные часы и дорожающие фитнес-браслеты</title>
+		<link>https://www.ixbt.com/news/2020/05/06/rossijane-skupajut-deshevejushie-umnye-chasy-i-dorozhajushie-fitnesbraslety.html</link>
+		<description><![CDATA[ 
+			<p>Аналитики российского ритейлера &laquo;Связной&raquo; подвели итоги российского рынка носимых устройств по итогам 1 квартала 2020 года. Как оказалось, за прошедший период продажи умных часов и фитнес-браслетов выросли на 54% по сравнению с прошлым годом.&nbsp;</p> <a href="https://www.ixbt.com/img/n1/news/2020/4/3/band-5-1_large.png"><figure><img src="https://www.ixbt.com/img//x780/n1/news/2020/4/3/band-5-1_large.png" /></figure></a> <p>С января по март в России продано более 1,4 млн фитнес-трекеров и умных часов на общую сумму почти 8,7 млрд рублей. Это больше в сравнении с прошлым годом на 54% в штучном выражении и 43% в денежном.</p> <p>Особенно рост спроса коснулся фитнес-трекеров. Россияне приобрели почти 1 млн таких устройств на общую сумму 2,5 млрд рублей, что больше прошлогодних показателей на 61% штучном выражении и 64% в денежном. Средняя цена фитнес-трекера выросла на 2% и составила 2,5 тысячи рублей. Самыми популярными фитнес-браслетами стали Xiaomi, Honor и Jet.</p> <p>Что касается умных часов, то за первые три месяца года российские потребители приобрели 230 тысяч таких устройств на сумму 5,8 млрд рублей. Рост год к году составил 53% в штучном и 37% в денежном выражении. Средняя цена при этом снизилась на 10% и составила 24,3 тысячи рублей. Лидером в штуках и в деньгах остаются Apple и Samsung.</p> <p>Отдельную категорию составляют детские умные часы. С января по март россияне приобрели 170 тыс. локаторов на сумму свыше 400 млн рублей. Продажи в штуках за год выросли на 32%, в деньгах рост составил 22%. Средняя цена локатора снизилась на 8% и составила 2,4 тыс. рублей.</p>					<br><br>
+		<a href="https://www.ixbt.com/news/2020/05/06/rossijane-skupajut-deshevejushie-umnye-chasy-i-dorozhajushie-fitnesbraslety.html#comments_block">Комментировать</a>
+		<br><br>
+		]]></description>
+		<author>verko@corp.ixbt.com (VerKo)</author>		<category></category>
+		<pubDate>Wed, 06 May 2020 10:18:00 +0300</pubDate>
+	</item>
+	</channel>
+</rss>
+
+
+
+
+
+
