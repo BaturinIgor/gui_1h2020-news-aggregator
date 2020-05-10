@@ -7,6 +7,8 @@
 #include <QtNetwork/QNetworkReply>
 #include <QWidget>
 #include <QTreeWidgetItem>
+#include <QVector>
+#include <QPair>
 
 #include "information.h"
 
@@ -24,17 +26,19 @@ public:
 
 private:
     Ui::MainWindow *ui;
-    Information info[100];
-    int i;
-    int count, currentColumn;
+    Information* info;
+    QVector< QPair< QString, QString> > headings;
+
+    int i, number;
     QTreeWidgetItem *currentItem;
     QStringList columnNames;
     void addElem(Information info);
     void traverseNode(const QDomNode& node);
+    void headingInit();
 
 private slots:
-    void on_pushButton_clicked();
     void replyFinished(QNetworkReply*);
+    void on_pushButton_clicked();
 };
 
 #endif // MAINWINDOW_H

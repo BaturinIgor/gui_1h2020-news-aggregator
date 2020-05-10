@@ -12,13 +12,19 @@ public:
     void setDate(QString date);
     void setSite(QString site);
     void setInfo(QString info);
+    void setDescription(QString description);
     QString getTitle();
     QString getDate();
     QString getSite();
     QString getInfo();
+    QString getDescription();
 
 private:
-    QString title, date, site, info;
+    QString title,
+            date,
+            site,
+            info,
+            description;
 };
 
 #endif // INFORMATION_H
