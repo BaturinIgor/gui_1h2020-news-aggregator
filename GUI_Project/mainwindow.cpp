@@ -11,16 +11,18 @@ MainWindow::MainWindow(QWidget *parent) :
     ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
-    number = 0;
-    ui->plainTextEdit->document()->setPlainText(QString::number(number));
-    i = 0;
-    ui->treeWidget->setColumnCount(4);
+    amountOfNews = 0;
     headingInit();
-    columnNames << "Заголовок" << "Дата и Время" << "Категория" << "Сайт";
+
+    ui->plainTextEdit->document()->setPlainText(QString::number(amountOfNews));
+    ui->treeWidget->setColumnCount(5);
+
+    columnNames << "Заголовок" << "Дата" << "Время" << "Категория" << "Сайт";
     ui->treeWidget->setColumnWidth(0, 450);
-    ui->treeWidget->setColumnWidth(1, 140);
-    ui->treeWidget->setColumnWidth(2, 120);
-    ui->treeWidget->setColumnWidth(3, 150);
+    ui->treeWidget->setColumnWidth(1, 80);
+    ui->treeWidget->setColumnWidth(2, 60);
+    ui->treeWidget->setColumnWidth(3, 120);
+    ui->treeWidget->setColumnWidth(4, 150);
     ui->treeWidget->setHeaderLabels(columnNames);
 }
 
@@ -31,18 +33,22 @@ MainWindow::~MainWindow()
 
 void MainWindow::addElem(Information info) {
     QTreeWidgetItem *newItem = new QTreeWidgetItem(ui->treeWidget, ui->treeWidget->currentItem());
+
     newItem->setText(0, info.getTitle());
     newItem->setText(1, info.getDate());
-    newItem->setText(2, info.getSite());
-    newItem->setText(3, info.getInfo());
+    newItem->setText(2, info.getTime());
+    newItem->setText(3, info.getSite());
+    newItem->setText(4, info.getInfo());
+
     newItem->setExpanded(true);
 }
 
 
 void MainWindow::replyFinished(QNetworkReply* reply) {
-    QString data = QString::fromUtf8( reply->readAll() );
+    QString data = QString::fromUtf8(reply->readAll());
+
     QFile file("test.xml");
-    //ui->plainTextEdit->document()->setPlainText(data);
+
     if (file.open(QIODevice::WriteOnly))
     {
         file.write(data.toLocal8Bit().data());
@@ -50,13 +56,12 @@ void MainWindow::replyFinished(QNetworkReply* reply) {
     }
 
     QDomDocument domDoc;
+
     if(file.open(QIODevice::ReadOnly)) {
         if(domDoc.setContent(&file)) {
             QDomElement domElement= domDoc.documentElement();
             traverseNode(domElement);
-            for(int j = i-1; j >= 1; j-- ) {
-                addElem(info[j]);
-            }
+            newsSorting(ui->comboBox_2->currentIndex());
             ui->plainTextEdit->document()->setPlainText(QString::number(ui->treeWidget->topLevelItemCount()));
         }
         file.close();
@@ -66,7 +71,7 @@ void MainWindow::replyFinished(QNetworkReply* reply) {
 void MainWindow::traverseNode(const QDomNode& node)
 {
     QDomNode domNode = node.firstChild();
-    while(!domNode.isNull() && i < number) {
+    while(!domNode.isNull() && index < amountOfNews) {
         if(domNode.isElement()) {
            QDomElement domElement = domNode.toElement();
            if(!domElement.isNull()) {
@@ -75,19 +80,19 @@ void MainWindow::traverseNode(const QDomNode& node)
                             << domElement.attribute("number", "");
                }
                else {
-                   qDebug() << "TagName: " << domElement.tagName()
-                            << "\tText: " << domElement.text();
                    if (domElement.tagName() == "title")
-                       info[i].setTitle(domElement.text());
-                   else if (domElement.tagName() == "pubDate")
-                       info[i].setDate(domElement.text());
+                       info[index].setTitle(domElement.text());
+                   else if (domElement.tagName() == "pubDate") {
+                       info[index].setDate(domElement.text().mid(5, 11));
+                       info[index].setTime(domElement.text().mid(17, 8));
+                   }
                    else if (domElement.tagName() == "category")
-                       info[i].setSite(domElement.text());
+                       info[index].setSite(domElement.text());
                    else if (domElement.tagName() == "dc:creator")
-                       info[i].setInfo(domElement.text());
+                       info[index].setInfo(domElement.text());
                    else if (domElement.tagName() == "description") {
-                       info[i].setDescription(domElement.text());
-                       i++;
+                       info[index].setDescription(domElement.text());
+                       index++;
                    }
               }
            }
@@ -121,24 +126,48 @@ void MainWindow::headingInit() {
     }
 }
 
+struct TitleCmp{
+    bool operator () (Information & a, Information & b) {
+            qDebug() << a.getTitle().toLocal8Bit().data() << " ";
+            return strcmp(a.getTitle().toLocal8Bit().data(), b.getTitle().toLocal8Bit().data());
+        }
+};
+
+void MainWindow::newsSorting(int criterion)
+{
+    switch (criterion) {
+    case 0:
+        for(int j = index-1; j >= 1; j-- ) {
+            addElem(info[j]);
+        }
+        break;
+    case 1:
+        for(int j = 1; j <= index-1; j++ ) {
+            addElem(info[j]);
+        }
+        break;
+    default:
+        break;
+    }
+}
+
 void MainWindow::on_pushButton_clicked()
 {
     ui->treeWidget->clear();
-    i = 0;
-    ui->plainTextEdit->document()->setPlainText(headings[i].first);
-    number = ui->comboBox_3->currentText().toInt() + 1;
-    info = new Information[number];
+    index = 0;
+    ui->plainTextEdit->document()->setPlainText(headings[index].first);
+    amountOfNews = ui->comboBox_3->currentText().toInt() + 1;
+    info = new Information[amountOfNews];
     QNetworkAccessManager *manager = new QNetworkAccessManager(this);
     connect(manager, SIGNAL(finished(QNetworkReply*)),
             this, SLOT(replyFinished(QNetworkReply*)));
     for (int j = 0; j < headings.size(); j++) {
-        qDebug() << headings[j].first;
         if (headings[j].first == ui->comboBox->currentText()) {
             manager->get(QNetworkRequest(QUrl(headings[j].second)));
             break;
         }
         else {
-            ui->plainTextEdit->document()->setPlainText(headings[i].first);
+            ui->plainTextEdit->document()->setPlainText(headings[index].first);
             continue;
         }
     }

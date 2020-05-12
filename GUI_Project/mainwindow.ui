@@ -46,7 +46,7 @@
    <widget class="QComboBox" name="comboBox">
     <property name="geometry">
      <rect>
-      <x>170</x>
+      <x>190</x>
       <y>30</y>
       <width>201</width>
       <height>22</height>
@@ -71,38 +71,18 @@
      <rect>
       <x>10</x>
       <y>30</y>
-      <width>151</width>
+      <width>171</width>
       <height>22</height>
      </rect>
     </property>
     <item>
      <property name="text">
-      <string>Не сортировать</string>
+      <string>Сначала новые</string>
      </property>
     </item>
     <item>
      <property name="text">
-      <string>В алфавитном порядке (А-Я)</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>В алфавитном порядке (Я-А)</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>По категориям</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>По времени (сначала новые)</string>
-     </property>
-    </item>
-    <item>
-     <property name="text">
-      <string>По времени (сначала старые)</string>
+      <string>Сначала старые</string>
      </property>
     </item>
    </widget>
@@ -122,7 +102,7 @@
    <widget class="QLabel" name="label_3">
     <property name="geometry">
      <rect>
-      <x>170</x>
+      <x>190</x>
       <y>10</y>
       <width>151</width>
       <height>16</height>
@@ -135,9 +115,9 @@
    <widget class="QPlainTextEdit" name="plainTextEdit">
     <property name="geometry">
      <rect>
-      <x>259</x>
+      <x>10</x>
       <y>290</y>
-      <width>631</width>
+      <width>881</width>
       <height>231</height>
      </rect>
     </property>
@@ -160,25 +140,12 @@
      </property>
     </column>
    </widget>
-   <widget class="QLabel" name="label_4">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>290</y>
-      <width>231</width>
-      <height>231</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-   </widget>
    <widget class="QComboBox" name="comboBox_3">
     <property name="geometry">
      <rect>
-      <x>380</x>
+      <x>400</x>
       <y>30</y>
-      <width>111</width>
+      <width>91</width>
       <height>22</height>
      </rect>
     </property>
@@ -216,7 +183,7 @@
    <widget class="QLabel" name="label_5">
     <property name="geometry">
      <rect>
-      <x>380</x>
+      <x>400</x>
       <y>10</y>
       <width>91</width>
       <height>16</height>

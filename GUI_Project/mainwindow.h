@@ -27,14 +27,15 @@ public:
 private:
     Ui::MainWindow *ui;
     Information* info;
-    QVector< QPair< QString, QString> > headings;
+    QVector <QPair <QString, QString> > headings;
 
-    int i, number;
+    int index, amountOfNews;
     QTreeWidgetItem *currentItem;
     QStringList columnNames;
     void addElem(Information info);
     void traverseNode(const QDomNode& node);
     void headingInit();
+    void newsSorting(int criterion);
 
 private slots:
     void replyFinished(QNetworkReply*);

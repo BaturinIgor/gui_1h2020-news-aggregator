@@ -5,20 +5,17 @@ Information::Information()
 
 }
 
-Information::Information(QString title, QString date, QString site, QString info)
-{
-    this->title = title;
-    this->date = date;
-    this->site = site;
-    this->info = info;
-}
-
 void Information::setTitle(QString title) {
     this->title = title;
 }
 
 void Information::setDate(QString date) {
     this->date = date;
+}
+
+void Information::setTime(QString time)
+{
+    this->time = time;
 }
 
 void Information::setSite(QString site) {
@@ -40,6 +37,11 @@ QString Information::getTitle() {
 
 QString Information::getDate() {
     return this->date;
+}
+
+QString Information::getTime()
+{
+    return this->time;
 }
 
 QString Information::getSite() {
