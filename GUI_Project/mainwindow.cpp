@@ -14,7 +14,6 @@ MainWindow::MainWindow(QWidget *parent) :
     amountOfNews = 0;
     headingInit();
 
-    ui->plainTextEdit->document()->setPlainText(QString::number(amountOfNews));
     ui->treeWidget->setColumnCount(5);
 
     columnNames << "Заголовок" << "Дата" << "Время" << "Категория" << "Сайт";
@@ -24,6 +23,8 @@ MainWindow::MainWindow(QWidget *parent) :
     ui->treeWidget->setColumnWidth(3, 120);
     ui->treeWidget->setColumnWidth(4, 150);
     ui->treeWidget->setHeaderLabels(columnNames);
+
+    connect(ui->treeWidget, SIGNAL(itemClicked(QTreeWidgetItem*,int)), this, SLOT(on_treeWidget_itemClicked(QTreeWidgetItem*)));
 }
 
 MainWindow::~MainWindow()
@@ -62,7 +63,6 @@ void MainWindow::replyFinished(QNetworkReply* reply) {
             QDomElement domElement= domDoc.documentElement();
             traverseNode(domElement);
             newsSorting(ui->comboBox_2->currentIndex());
-            ui->plainTextEdit->document()->setPlainText(QString::number(ui->treeWidget->topLevelItemCount()));
         }
         file.close();
     }
@@ -82,14 +82,16 @@ void MainWindow::traverseNode(const QDomNode& node)
                else {
                    if (domElement.tagName() == "title")
                        info[index].setTitle(domElement.text());
+                   else if(domElement.tagName() == "link")
+                       info[index].setLink(domElement.text());
                    else if (domElement.tagName() == "pubDate") {
                        info[index].setDate(domElement.text().mid(5, 11));
                        info[index].setTime(domElement.text().mid(17, 8));
                    }
                    else if (domElement.tagName() == "category")
-                       info[index].setSite(domElement.text());
-                   else if (domElement.tagName() == "dc:creator")
                        info[index].setInfo(domElement.text());
+                   else if (domElement.tagName() == "dc:creator")
+                       info[index].setSite(domElement.text());
                    else if (domElement.tagName() == "description") {
                        info[index].setDescription(domElement.text());
                        index++;
@@ -126,24 +128,29 @@ void MainWindow::headingInit() {
     }
 }
 
-struct TitleCmp{
-    bool operator () (Information & a, Information & b) {
-            qDebug() << a.getTitle().toLocal8Bit().data() << " ";
-            return strcmp(a.getTitle().toLocal8Bit().data(), b.getTitle().toLocal8Bit().data());
-        }
-};
-
 void MainWindow::newsSorting(int criterion)
-{
+{       
     switch (criterion) {
     case 0:
         for(int j = index-1; j >= 1; j-- ) {
-            addElem(info[j]);
+            if (info[j].getTitle().contains(ui->lineEdit->text(), Qt::CaseInsensitive) ||
+                info[j].getDate().contains(ui->lineEdit->text(), Qt::CaseInsensitive) ||
+                info[j].getInfo().contains(ui->lineEdit->text(), Qt::CaseInsensitive) ||
+                info[j].getSite().contains(ui->lineEdit->text(), Qt::CaseInsensitive) ||
+                info[j].getDescription().contains(ui->lineEdit->text(), Qt::CaseInsensitive) ||
+                info[j].getTime().contains(ui->lineEdit->text(), Qt::CaseInsensitive))
+                addElem(info[j]);
         }
         break;
     case 1:
         for(int j = 1; j <= index-1; j++ ) {
-            addElem(info[j]);
+            if (info[j].getTitle().contains(ui->lineEdit->text(), Qt::CaseInsensitive) ||
+                info[j].getDate().contains(ui->lineEdit->text(), Qt::CaseInsensitive) ||
+                info[j].getInfo().contains(ui->lineEdit->text(), Qt::CaseInsensitive) ||
+                info[j].getSite().contains(ui->lineEdit->text(), Qt::CaseInsensitive) ||
+                info[j].getDescription().contains(ui->lineEdit->text(), Qt::CaseInsensitive) ||
+                info[j].getTime().contains(ui->lineEdit->text(), Qt::CaseInsensitive))
+                addElem(info[j]);
         }
         break;
     default:
@@ -155,7 +162,6 @@ void MainWindow::on_pushButton_clicked()
 {
     ui->treeWidget->clear();
     index = 0;
-    ui->plainTextEdit->document()->setPlainText(headings[index].first);
     amountOfNews = ui->comboBox_3->currentText().toInt() + 1;
     info = new Information[amountOfNews];
     QNetworkAccessManager *manager = new QNetworkAccessManager(this);
@@ -166,10 +172,27 @@ void MainWindow::on_pushButton_clicked()
             manager->get(QNetworkRequest(QUrl(headings[j].second)));
             break;
         }
-        else {
-            ui->plainTextEdit->document()->setPlainText(headings[index].first);
-            continue;
-        }
+        else continue;
     }
     currentItem = NULL;
+}
+
+void MainWindow::on_treeWidget_itemClicked(QTreeWidgetItem *item)
+{
+    for(int j = 1; j <= index-1; j++ ) {
+        if (info[j].getTitle() == item->text(0)) {
+            ui->plainTextEdit->setReadOnly(1);
+            ui->plainTextEdit->setFont(QFont( "Helvetica", 11 ));
+            ui->plainTextEdit->document()->setPlainText("Заголовок:\t\t\t" + info[j].getTitle() + "\n" +
+                                                        "Дата и время публикации:\t" + info[j].getDate() + " " + info[j].getTime() + "\n" +
+                                                        "Категория:\t\t\t" + info[j].getInfo() + "\n" +
+                                                        "Сайт:\t\t\t" + info[j].getSite() + "\n" +
+                                                        "   " + info[j].getDescription() + "\n" +
+                                                        "Продолждение: " + info[j].getLink() + "\n" +
+                                                        "Все новости \"" + info[0].getTitle() + "\": " + info[j].getSite());
+
+            break;
+        }
+        else continue;
+    }
 }

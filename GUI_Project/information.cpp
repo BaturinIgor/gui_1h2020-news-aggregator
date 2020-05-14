@@ -31,6 +31,11 @@ void Information::setDescription(QString description)
     this->description = description;
 }
 
+void Information::setLink(QString link)
+{
+    this->link = link;
+}
+
 QString Information::getTitle() {
     return this->title;
 }
@@ -54,4 +59,9 @@ QString Information::getInfo() {
 
 QString Information::getDescription() {
     return this->description;
+}
+
+QString Information::getLink()
+{
+    return this->link;
 }
