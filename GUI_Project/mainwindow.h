@@ -40,6 +40,7 @@ private:
 private slots:
     void replyFinished(QNetworkReply*);
     void on_pushButton_clicked();
+    void on_treeWidget_itemClicked(QTreeWidgetItem *item);
 };
 
 #endif // MAINWINDOW_H

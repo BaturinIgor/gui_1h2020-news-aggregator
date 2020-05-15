@@ -13,12 +13,14 @@ public:
     void setSite(QString site);
     void setInfo(QString info);
     void setDescription(QString description);
+    void setLink(QString link);
     QString getTitle();
     QString getDate();
     QString getTime();
     QString getSite();
     QString getInfo();
     QString getDescription();
+    QString getLink();
 
 private:
     QString title,
@@ -26,7 +28,8 @@ private:
             time,
             site,
             info,
-            description;
+            description,
+            link;
 };
 
 #endif // INFORMATION_H
