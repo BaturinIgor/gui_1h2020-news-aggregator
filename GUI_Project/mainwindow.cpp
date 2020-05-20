@@ -38,8 +38,8 @@ void MainWindow::addElem(Information info) {
     newItem->setText(0, info.getTitle());
     newItem->setText(1, info.getDate());
     newItem->setText(2, info.getTime());
-    newItem->setText(3, info.getSite());
-    newItem->setText(4, info.getInfo());
+    newItem->setText(3, info.getInfo());
+    newItem->setText(4, info.getSite());
 
     newItem->setExpanded(true);
 }
